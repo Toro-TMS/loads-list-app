@@ -1,4 +1,5 @@
 import Load from "./Load"
+import "./App.css"
 
 function App() {
   const loads = [];
