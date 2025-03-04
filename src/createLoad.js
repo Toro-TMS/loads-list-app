@@ -18,7 +18,7 @@ function createStop() {
 function createLoad() {
   return {
     id: faker.string.uuid(),
-    number: faker.string.alphanumeric({ casing: 'upper', length: 6 }),
+    number: faker.string.alphanumeric({ casing: "upper", length: 6 }),
     customer: {
       id: faker.string.uuid(),
       name: faker.company.name(),

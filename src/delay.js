@@ -10,8 +10,8 @@ function delay(ms, { errorRate } = {}) {
       } else {
         resolve();
       }
-    }, ms)
-  })
+    }, ms);
+  });
 }
 
 export default delay;

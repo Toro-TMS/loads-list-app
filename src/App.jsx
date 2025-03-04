@@ -1,6 +1,6 @@
-import Load from "./Load"
-import "./App.css"
-import createLoad from "./createLoad"
+import Load from "./Load";
+import "./App.css";
+import createLoad from "./createLoad";
 
 const exampleLoad = createLoad();
 
@@ -12,7 +12,7 @@ function App() {
         <Load load={exampleLoad} />
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
