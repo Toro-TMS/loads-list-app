@@ -5,9 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
+    "formatter": "onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}}",
     "seedData": "node generateLoads.js > public/loads.json"
   },
   "dependencies": {
